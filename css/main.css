@@ -25,9 +25,13 @@ html {
 }
 
 .banner {
-
+  position: relative;
+  overflow: hidden;
+  max-height: 25em;
 }
 
 .banner-content {
-
+  color: white;
+  position: absolute;
+  bottom: 0;
 }
